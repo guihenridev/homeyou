@@ -119,6 +119,8 @@ a{
     align-items: center;
     justify-content: space-between;
     margin: 6rem 0;
+    flex-wrap: wrap;
+    height: inherit;
 }
 .design-box{
     background-color: #272727;
@@ -149,7 +151,7 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 50rem;
+    height: inherit;
     justify-content: space-evenly;
 }
 .galeria p{
@@ -159,6 +161,7 @@ a{
 .galeria-img{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .orcamento{
     display: flex;

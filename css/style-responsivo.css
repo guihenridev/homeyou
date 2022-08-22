@@ -1,4 +1,51 @@
+@media only screen and (max-width: 1050px) {
+    .logo h1{
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width:930px) {
+    .nav-link{
+        font-size: 1.3rem;
+    }
+    .home{
+        height: inherit;
+    }
+    .home img{
+        display: none;
+    }
+    .home-text {
+        padding: 1rem 0;
+    }
+    .design-img{
+        display: none;
+    }
+    .galeria{
+        height: inherit;
+    }
+    .galeria p{
+        padding: 0;
+        margin: 1rem 0;
+    }
+    .galeria-img {
+        justify-content: center;
+        
+    }
+    .galeria-img img{
+        margin-bottom: 2rem;        
+    }
+    .design-box{
+        width: auto;
+    }
+    footer p{
+        margin: 0 2rem;
+
+    }
+}
+
 @media only screen and (max-width:730px) {
+    
     .nav-item{
         display: none;
     }
@@ -17,13 +64,30 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: flex-end;
     }
     .mobile-menu .nav-item{
         display: block;
         padding-top: 1.5rem;
     }
+    .nav-list{
+        justify-content: flex-end;
+    }
     .open{
         display: block;
+    }
+
+    .design-min a{
+        text-align: center;
+    }
+    
+    .orcamento p {
+        margin: 0 2rem;
+        text-align: center;
+    }
+    
+    footer{
+        height: inherit;
     }
 
 }
